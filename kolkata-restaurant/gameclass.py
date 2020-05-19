@@ -63,7 +63,7 @@ class Game(object):
 
         self.fps = 60
         #self.frameskip = 0 initialement
-        self.frameskip = 5
+        self.frameskip = 3
         # converti les sprites meme format que l'ecran
         self.spriteBuilder.prepareSprites()
 
